@@ -58,6 +58,11 @@ As written before, Eurostat has already put all the data on a map, albeit sepera
 
 **80% of the final grade**
 
+### Technical setup
+HTML, CSS and Javascript/D3 were used in the creation of this project.
+
+### Intended use
+The HTML, CSS and Javascript files should be downloaded and put into the same folder. (The data is obtained through an API, so it won't be manually downloaded.) Opening the HTML file will give the visualisation. You will obtain the radar pie chart (of percentages) of the economic data of regions by clicking on them. If a region is green, it means that the data is available, if a region is grey, it means that the data for the region is not available. You can zoom the map.
 
 ## Late policy
 
