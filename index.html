@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map of Europe with D3.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+    <div id="app-container">
+        <div id="info-sidebar">
+            <h2>Region Details</h2>
+            <hr>
+            <div id="details-content">
+                <p class="placeholder-text">Click on a NUTS 3 region to inspect its parameters.</p>
+            </div>
+        </div>
+
+        <div id="map-container">
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
